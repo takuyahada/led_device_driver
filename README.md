@@ -16,15 +16,15 @@ https://www.youtube.com/watch?v=9zPbc1hHtWc&feature=youtu.be
  * connected with 23 and 24 pins
  
 ## Usage
-cd led_device_driver
-make
-sudo insmod myled.ko
-sudo chmod 666 /dev/myled0
-echo 1 > /dev/myled0 //flash
-echo 0 > /dev/myled0 //solid
-echo 2 > /dev/myled0 //flash
-sudo rm /dev/myled0
-sudo rmmod myled
+* cd led_device_driver
+* make
+* sudo insmod myled.ko
+* sudo chmod 666 /dev/myled0
+* echo 1 > /dev/myled0 //flash
+* echo 0 > /dev/myled0 //solid
+* echo 2 > /dev/myled0 //flash
+* sudo rm /dev/myled0
+* sudo rmmod myled
 
 ## Licence
 This repository is licensed under the GPLv3 license
